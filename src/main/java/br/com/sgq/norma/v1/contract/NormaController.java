@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/v1")
 @Validated
+@CrossOrigin(origins = "*")
 @SwaggerDefinition(tags = {
         @Tag(name = "Normas", description = "Mock para Api de normas")
 })
